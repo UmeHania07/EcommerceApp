@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-nav li a{
+  font-size: 25px;
+  font-weight: 500;
+  margin:15px;
+}
+.navbar-brand{
+  letter-spacing: 8px;
+  
+  margin-right: 200px;
+  /* font-size: 30px; */
+}
+/* .heading{
+ margin-right: 200px;
+  font-size: 25px;
+  letter-spacing: 7px;
+} */
+/* cart */
+.card{
+  transition: all 0.5s ease;
+}
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.lead{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.imageTag{
+  transition: all 0.5s ease;
+}
+.imageTag:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+ 
+}
+.product img{
+  transition: all 0.5s ease;
+}
+.product img:hover{
+transform: scale(1.1);
+}
